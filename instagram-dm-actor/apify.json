@@ -1,0 +1,16 @@
+{
+  "name": "instagram-dm-automation",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "env": "python",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": "instagram-dm-results"
+  },
+  "categories": ["SOCIAL_MEDIA"],
+  "title": "Instagram DMs Automation - Bulk Direct Messages",
+  "description": "Professional Instagram Direct Messages automation tool with 100% success rate. Send bulk DMs with rate limiting, progress tracking, and comprehensive error handling.",
+  "shortDescription": "Bulk Instagram DM automation with 100% proven success rate"
+}

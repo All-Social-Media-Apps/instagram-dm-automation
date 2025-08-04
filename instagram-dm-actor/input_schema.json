@@ -1,0 +1,54 @@
+{
+  "title": "Instagram DMs Automation Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "sessionId": {
+      "title": "Instagram Session ID",
+      "type": "string",
+      "description": "Your Instagram session ID from browser cookies",
+      "editor": "textfield",
+      "example": "274540133%3AHocEMebGoxKuyd%3A14%3AAYdC..."
+    },
+    "usernames": {
+      "title": "Target Usernames",
+      "type": "array",
+      "description": "List of Instagram usernames to send messages to",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      },
+      "example": ["target_user1", "target_user2"]
+    },
+    "message": {
+      "title": "Message Content",
+      "type": "string",
+      "description": "The message to send to each user",
+      "editor": "textarea",
+      "example": "Hello! I hope you're having a great day."
+    },
+    "testMode": {
+      "title": "Test Mode",
+      "type": "boolean",
+      "description": "Enable test mode (simulates sending without actual messages)",
+      "default": true
+    },
+    "delayBetweenMessages": {
+      "title": "Delay Between Messages (seconds)",
+      "type": "integer",
+      "description": "Delay in seconds between each message to respect rate limits",
+      "minimum": 30,
+      "maximum": 300,
+      "default": 60
+    },
+    "maxRetries": {
+      "title": "Maximum Retries",
+      "type": "integer",
+      "description": "Maximum number of retry attempts for failed messages",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3
+    }
+  },
+  "required": ["sessionId", "usernames", "message"]
+}

@@ -1,0 +1,8 @@
+{
+  "sessionId": "274540133%3AHocEMebGoxKuyd%3A14%3AAYdC6kaAW5ah571vIr2NTVeJDTdxon3n0vyX7Nw-Pg",
+  "usernames": ["username1", "username2", "username3"],
+  "message": "Hello! This is an automated message.",
+  "url": "https://www.instagram.com",
+  "maxConcurrency": 1,
+  "delay": 5000
+}
