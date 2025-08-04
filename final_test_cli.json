@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "total_attempted": 1,
+  "successful_sends": 1,
+  "failed_sends": 0,
+  "skipped_sends": 0,
+  "start_time": "2025-08-04 16:17:03.308857",
+  "end_time": "2025-08-04 16:17:10.886295",
+  "runtime_seconds": 7.577438,
+  "results": [
+    {
+      "username": "test_user",
+      "message": "Test message",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2025-08-04 16:17:08.815395",
+      "error_message": null,
+      "retry_count": 0,
+      "processing_time_ms": 2002
+    }
+  ],
+  "error": null,
+  "warnings": [],
+  "average_processing_time_ms": 2002.0,
+  "rate_limit_hits": 0,
+  "session_valid": true,
+  "messages_remaining_today": 50
+}

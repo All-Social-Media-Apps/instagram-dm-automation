@@ -1,0 +1,18 @@
+# Sensitive files
+*_input.json
+my_input.json
+test_input.json
+production_input.json
+*.env
+.env
+
+# Output files
+output.json
+my_results.json
+*.log
+
+# System files
+__pycache__/
+*.pyc
+.vscode/
+.idea/

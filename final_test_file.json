@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "total_attempted": 2,
+  "successful_sends": 2,
+  "failed_sends": 0,
+  "skipped_sends": 0,
+  "start_time": "2025-08-04 16:17:11.435681",
+  "end_time": "2025-08-04 16:18:21.183365",
+  "runtime_seconds": 69.747684,
+  "results": [
+    {
+      "username": "test_user1",
+      "message": "Hello! This is a test message from Instagram DM automation.",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2025-08-04 16:17:17.078847",
+      "error_message": null,
+      "retry_count": 0,
+      "processing_time_ms": 2004
+    },
+    {
+      "username": "test_user2",
+      "message": "Hello! This is a test message from Instagram DM automation.",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2025-08-04 16:18:19.108522",
+      "error_message": null,
+      "retry_count": 0,
+      "processing_time_ms": 2016
+    }
+  ],
+  "error": null,
+  "warnings": [],
+  "average_processing_time_ms": 2010.0,
+  "rate_limit_hits": 0,
+  "session_valid": true,
+  "messages_remaining_today": 20
+}
